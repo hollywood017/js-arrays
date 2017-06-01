@@ -1,3 +1,31 @@
+// Split----------------------------------
+// ---------------------------------------
+
+var sentence = 'Hello, my name is Nizar and I like Pizza and cookies';
+
+var pieces = sentence.split(" ");
+console.log( pieces );
+
+
+var phoneNumber = '555-555-5555';
+
+pieces = phoneNumber.split('-');
+console.log( pieces );
+
+pieces = phoneNumber.split("");
+console.log( pieces );
+
+
+var letters = 'Z***B***C***T';
+
+pieces = letters.split('***');
+console.log( pieces );
+
+
+
+// Array Loops ---------------------------
+// ---------------------------------------
+
 var arrayNames = ["Pedro", "Jake", "Joan", "Ariel", "Kevin", "Alia", "Marisa", "Nizar" ];
   //                 0        1       2       3        4        5       6         7
 
